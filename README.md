@@ -2,8 +2,7 @@
 
 **Groceries at lightning speed** — a modern, frontend-only quick-commerce web app inspired by 10-minute delivery platforms. Browse products, manage your cart, checkout, and track your order — all in a fast, mobile-friendly UI.
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-QuickDash-0C831F?style=for-the-badge&logo=vercel&logoColor=white)](https://github.com/daxshonly/quickdash#deployment)
-[![GitHub](https://img.shields.io/badge/GitHub-daxshonly%2Fquickdash-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/daxshonly/quickdash)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-QuickDash-0C831F?style=for-the-badge&logo=vercel&logoColor=white)](https://quickdash-seven.vercel.app/)
 ![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-5-646CFF?logo=vite&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-3-06B6D4?logo=tailwindcss&logoColor=white)
@@ -94,32 +93,6 @@ npm run preview  # Preview the production build locally
 4. Browse products, use search or category filters, and add items to your cart.
 5. Proceed to **Checkout**, select an address and payment method, and place your order.
 6. Watch the **order tracking** screen simulate delivery progress.
-
----
-
-## Deployment
-
-QuickDash is a static Vite app and can be deployed for free on any of these platforms:
-
-### Vercel (recommended)
-
-1. Push your code to GitHub.
-2. Import the repo at [vercel.com/new](https://vercel.com/new).
-3. Vercel auto-detects Vite — click **Deploy**.
-4. Update the Live Demo badge URL in this README with your deployed link.
-
-### Netlify
-
-```bash
-npm run build
-# Upload the dist/ folder at netlify.com, or connect your GitHub repo
-```
-
-Build command: `npm run build` · Publish directory: `dist`
-
-### GitHub Pages
-
-Add a `base` path in `vite.config.js` if deploying to `username.github.io/quickdash`, then use a GitHub Actions workflow or deploy the `dist/` folder manually.
 
 ---
 
